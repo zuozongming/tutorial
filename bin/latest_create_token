@@ -1,0 +1,46 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 23.253.157.242 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        23.253.157.242
+Server Port:            35357
+
+Document Path:          /v3/auth/tokens
+Document Length:        862 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.359 seconds
+Complete requests:      200
+Failed requests:        0
+Write errors:           0
+Total transferred:      246400 bytes
+Total POSTed:           123400
+HTML transferred:       172400 bytes
+Requests per second:    13.93 [#/sec] (mean)
+Time per request:       71.795 [ms] (mean)
+Time per request:       71.795 [ms] (mean, across all concurrent requests)
+Transfer rate:          16.76 [Kbytes/sec] received
+                        8.39 kb/s sent
+                        25.15 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:    45   72  58.8     52     460
+Waiting:       43   69  58.7     49     460
+Total:         45   72  58.8     52     460
+
+Percentage of the requests served within a certain time (ms)
+  50%     52
+  66%     53
+  75%     54
+  80%     60
+  90%    142
+  95%    156
+  98%    339
+  99%    447
+ 100%    460 (longest request)
