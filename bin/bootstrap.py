@@ -3,17 +3,17 @@ import os
 from keystoneclient.v3 import client
 
 
-HOST = os.environ.get('HOST', '192.168.111.222')
+HOST = os.environ.get('HOST', '153.99.250.75')
 KEYSTONE_ENDPOINT = os.environ.get(
     'KEYSTONE_ENDPOINT', 'http://%s:35357/' % HOST)
 
 
 c = client.Client(
     token='ADMIN',
-    endpoint=KEYSTONE_ENDPOINT + 'v3')
+    endpoint=KEYSTONE_ENDPOINT + 'v3.0')
 
 domain = c.domains.get('default')
-
+print "domain done"
 try:
     role = c.roles.create(name='admin')
 except Exception:

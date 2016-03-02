@@ -3,7 +3,7 @@ import os
 from keystoneclient.v3 import client
 
 
-HOST = os.environ.get('HOST', '23.253.157.126')
+HOST = os.environ.get('HOST', '153.99.250.75')
 KEYSTONE_ENDPOINT = os.environ.get(
     'KEYSTONE_ENDPOINT', 'http://%s:35357/' % HOST)
 

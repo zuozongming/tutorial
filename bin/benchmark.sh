@@ -1,7 +1,7 @@
 set -e
 
-export HOST=23.253.157.242
-export DB_HOST=23.253.157.126
+export HOST=153.99.250.75
+export DB_HOST=153.99.250.75
 
 echo "Ensuring Keystone is bootstrapped with the expected credentials..."
 python bootstrap.py
