@@ -1,0 +1,12 @@
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.4.6 (Ubuntu)
+Date: Thu, 03 Mar 2016 10:19:44 GMT
+Content-Type: application/json
+Content-Length: 114
+Connection: keep-alive
+WWW-Authenticate: Keystone uri="http://127.0.0.1:5000"
+Vary: X-Auth-Token
+X-Distribution: Ubuntu
+x-openstack-request-id: req-9ef25cad-6fe7-4d42-b186-ba54a9a4774a
+
+{"error": {"message": "The request you have made requires authentication.", "code": 401, "title": "Unauthorized"}}

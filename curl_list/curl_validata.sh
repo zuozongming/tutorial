@@ -1,0 +1,3 @@
+#curl -H "X-Auth-Token:AAAAABW16XWZAgKgR_tkkwHZPK1N8TktNN7uO9whA5jCjq82dfpKJ6P5uFvXVwJ5j-pNf3T5DBQKCzHxB1lI2_IpCiVI_joenBye4FvbDmisjVDsepMyc-CA6YDsG3LOa5AR56mR4a0"\
+curl -H "X-Auth-Token:27580b8a43a9833a5f65"\
+ http://0.0.0.0:5000/v2.0/auth/tokens/gAAAAABW17fiLPpzhFaLWU_TFdX7ay5xvtxLAId4tPmbPVTmvm8Ds9gpcRsolfotiZeUhmrkdyhUNvmt4vSVt8c20vVw2XoONUI8spZuYeYuz1cwWmPoRNEFQIHGI2VKT0ygdjN2XkmV

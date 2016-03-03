@@ -1,0 +1,26 @@
+{
+    "access": {
+        "metadata": {
+            "is_admin": 0,
+            "roles": []
+        },
+        "serviceCatalog": [],
+        "token": {
+            "audit_ids": [
+                "Z45nhMCbT4mG3mqgAfq4Kw"
+            ],
+            "expires": "2016-03-02T13:19:49.566941Z",
+            "id": "gAAAAABW1tpl8TG28EDU9vYvGXb9Cs_p3YWObTcLeBZdvCNWriU_mTXdLTJnbJCwlOYTnd2rwvSYWEgmPvEfDPqaxVfeee9Oqvm1KLCWx4RPJHo04uwC0HXe23LP8kjKtFxWT4PCZfKJ",
+            "issued_at": "2016-03-02T12:19:49.566960Z"
+        },
+        "user": {
+            "email": null,
+            "enabled": true,
+            "id": "1594acd300504f51bcd2aad487f72516",
+            "name": "admin",
+            "roles": [],
+            "roles_links": [],
+            "username": "admin"
+        }
+    }
+}
